@@ -1,0 +1,29 @@
+{
+  "author": {
+    name: "Ben Irvin",
+    email: "ben@innerdvations.com"
+  },
+  "name": "ah-ratelimite-plugin",
+  "description": "Allows limits to be set on the number of time actions can be called in a time period",
+  "version": "1.0.0",
+  "homepage": "https://github.com/innerdvations/ah-ratelimit-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/innerdvations/ah-ratelimit-plugin.git"
+  },
+  "keywords": ["actionhero"],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "semver": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "scripts": {
+    "postinstall": "scripts/postinstall.js"
+  },
+  "bugs": {
+    "url": "https://github.com/innerdvations/ah-ratelimit-plugin/issues"
+  }
+}
