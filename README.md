@@ -1,6 +1,6 @@
 # ah-ratelimit-plugin
 
-Allows limits to be set on the number of time actions can be called in a time period, based on some identifier.
+Allows limits to be set on the number of time actions can be called in a time period, based on some identifier.  Has been tested to work with both actionhero 8 and actionhero 9.
 
 Here's an example config file with an example of what happens.
 
