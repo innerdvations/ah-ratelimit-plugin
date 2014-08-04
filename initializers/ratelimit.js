@@ -123,7 +123,7 @@ var ratelimit = function(api, next){
     });
   };
   
-  if(require('semver').lt(require('../../../package').version, '9.0.0')) api.actions.preProcessors.push(api.ratelimit._on_action);
+  if(require('semver').lt(require('../../actionhero/package.json').version, '9.0.0')) api.actions.preProcessors.push(api.ratelimit._on_action);
   else api.actions.addPreProcessor(api.ratelimit._on_action, 3);
   
   next();

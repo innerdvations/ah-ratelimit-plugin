@@ -1,8 +1,8 @@
 {
   "author": "Ben Irvin <ben@innerdvations>",
-  "name": "ah-ratelimite-plugin",
+  "name": "ah-ratelimit-plugin",
   "description": "Allows limits to be set on the number of time actions can be called in a time period",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "homepage": "https://github.com/innerdvations/ah-ratelimit-plugin",
   "repository": {
     "type": "git",
