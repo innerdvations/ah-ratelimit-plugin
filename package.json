@@ -13,7 +13,8 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "semver": "*"
+    "semver": "*"，
+    "async":"*"
   },
   "devDependencies": {},
   "optionalDependencies": {},
